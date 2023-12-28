@@ -1,0 +1,98 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1E90FF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 700px; /* Mengurangi lebar maksimum form */
+    padding: 15px; /* Mengurangi ruang di dalam form */
+    border: 1px solid #1E90FF; /* Frame tipis */
+    border-radius: 8px; /* Sudut melengkung */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Efek bayangan yang ringan */
+}
+
+form h4 {
+    font-size: 1em; /* Ukuran teks yang lebih kecil */
+    margin-bottom: 10px; /* Ruang bawah yang lebih sedikit */
+    color: #1E90FF;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type='submit'] {
+    padding: 6px 14px; /* Ukuran tombol yang lebih kecil */
+    font-size: 0.9em; /* Ukuran teks tombol yang lebih kecil */
+    background-color: #1E90FF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; /* Sudut melengkung pada tombol */
+}
+
+input[type='submit']:hover {
+    background-color: #007bff;
+}
+
+
+
+footer {
+    background-color: #1E90FF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #ccc;
+}
+
+
